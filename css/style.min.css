@@ -88,7 +88,12 @@ button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-
+button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
 a,
 a:visited {
   text-decoration: none;
